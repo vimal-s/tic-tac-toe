@@ -18,6 +18,7 @@ ul {
   padding: 10px;
   border-radius: 10px;
   height: max-content;
+  margin-top: 10px;
 }
 
 .game-moves {
@@ -64,14 +65,29 @@ ul {
 .game {
   display: flex;
   flex-direction: row;
+  min-width: max-content;
 }
 
 .game-info {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .game-info > ul {
   list-style-type: none;
   padding-left: 0px;
   border-radius: 10px;
+  margin-top: 1;
+}
+
+@media (max-width: 480px) {
+  .game {
+    flex-direction: column;
+  }
+  .game-board {
+    width: max-content;
+  }
+  .game-info {
+    margin-left: 0;
+    margin-top: 30px;
+  }
 }

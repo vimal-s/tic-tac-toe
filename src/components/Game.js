@@ -134,15 +134,18 @@ class Game extends React.Component {
 
     return (
       <div className="game">
-        <div className="game-board">
-          <Board
-            winningIndices={winningIndices}
-            squares={squares}
-            onClick={(squareIndex) => this.handleClick(squareIndex)}
-          />
+        <div>
+          <div>{status}</div>
+          <div className="game-board">
+            <Board
+              winningIndices={winningIndices}
+              squares={squares}
+              onClick={(squareIndex) => this.handleClick(squareIndex)}
+            />
+          </div>
         </div>
         <div className="game-info">
-          <div>{status}</div>
+          Previous steps
           <ul>{this.getMoves()}</ul>
         </div>
       </div>
