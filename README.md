@@ -1,6 +1,8 @@
 # Tic Tac Toe
 
-Tic-tac-toe is a game where 2 players take turns on a 3 x 3 board.
+Tic-tac-toe is a game where 2 players take turns on a 3 x 3 board. The goal is to cover the board horizontally, veritcally or diagonally with the players mark.
+
+This game implements suggested improvements over the original version which can be found [here](https://reactjs.org/tutorial/tutorial.html#inspecting-the-starter-code)
 
 ## Live Version
 
@@ -11,6 +13,10 @@ Live version available [here](https://vimal-s.github.io/tic-tac-toe/)
 [Node](https://nodejs.org/en/download/) must be installed to run the app.
 
 ### Available Scripts
+
+To install dependencies:
+
+#### `npm install`
 
 In the project directory, you can run:
 
@@ -29,18 +35,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
 #### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-#### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://facebook.github.io/create-react-app/docs/deployment
 
 ## License
 
-To be determined.
+Yet to decide
